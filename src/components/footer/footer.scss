@@ -1,0 +1,12 @@
+$primary-color: #ddd0c8;
+$secondary-color: #323232;
+
+footer {
+    background: $secondary-color;
+    padding: 16px;
+    color: $primary-color;
+
+    .tag{
+        text-align: center;
+    }
+}

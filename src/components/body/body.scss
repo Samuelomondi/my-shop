@@ -1,0 +1,19 @@
+body {
+    .feature {
+        background-color: white;
+        height: 40dvh;
+        margin: 32px;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 32px;
+    }
+}
