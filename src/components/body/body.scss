@@ -3,6 +3,14 @@ body {
     background-color: white;
     height: 40dvh;
     margin: 16px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      object-fit: cover;
+    }
   }
 
   .navigation {
@@ -17,9 +25,9 @@ body {
     margin: 16px;
 
     @media (max-width: 450px) {
-        align-items: center; 
-        justify-content: center;// Center items on smaller screens
-        margin: 16px;
+      align-items: center;
+      justify-content: center; // Center items on smaller screens
+      margin: 16px;
     }
   }
 }

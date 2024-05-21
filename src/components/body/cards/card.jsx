@@ -1,21 +1,22 @@
+/* eslint-disable react/prop-types */
 import './card.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
-const Card = () => {
+const Card = (props) => {
   return (
     <card>
       <div className="image">
-        <img className='image' src="" alt="Product Image" />
+        <img className='image' src={props.image} alt="Product Image" />
       </div>
 
       <div className="name-cart">
-        <p className='name'>Product Name</p>
+        <p className='name'>{props.name}</p>
         <FontAwesomeIcon icon={faHeart} className='cart'/>
       </div>
 
-      <p className='desc'>Material/Color/Size</p>
-      <p className="price">KES 0.00</p>
+      <p className='desc'>{props.desc}</p>
+      <p className="price">{props.price}</p>
 
     </card>
   )
