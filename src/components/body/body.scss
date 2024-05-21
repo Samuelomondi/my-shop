@@ -1,19 +1,25 @@
 body {
-    .feature {
-        background-color: white;
-        height: 40dvh;
-        margin: 32px;
-    }
+  .feature {
+    background-color: white;
+    height: 40dvh;
+    margin: 32px;
+  }
 
-    .navigation {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 
-    .items {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 32px;
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px;
+
+    @media (max-width: 450px) {
+        align-items: center; 
+        justify-content: center;// Center items on smaller screens
+        margin: 16px;
     }
+  }
 }
