@@ -7,7 +7,7 @@ const Card = (props) => {
   return (
     <card>
       <div className="image">
-        <img className='image' src={props.image} alt="Product Image" />
+        <img className='image' src={props.picture} alt="Product Image" />
       </div>
 
       <div className="name-cart">
@@ -15,7 +15,7 @@ const Card = (props) => {
         <FontAwesomeIcon icon={faHeart} className='cart'/>
       </div>
 
-      <p className='desc'>{props.desc}</p>
+      <p className='desc'>{props.description}</p>
       <p className="price">{props.price}</p>
 
     </card>

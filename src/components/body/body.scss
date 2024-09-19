@@ -1,7 +1,7 @@
 body {
   .feature {
     background-color: white;
-    height: 40dvh;
+    height: 50dvh;
     margin: 16px;
 
     img {
@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 16px;
+    justify-content: space-around;
 
     @media (max-width: 450px) {
       align-items: center;
